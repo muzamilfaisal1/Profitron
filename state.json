@@ -1,0 +1,31 @@
+{
+    "lightTheme": false,
+    "darkTheme": true,
+    "bloombergTheme": false,
+    "bullTheme": false,
+    "bearTheme": false,
+    "balanceColor": "#14e0dd",
+    "lineColor": "#bf0fa2",
+    "hoverLine": true,
+    "averagePlot": true,
+    "failureLimit": 5,
+    "failureSleep": 10,
+    "chatPass": false,
+    "tokenPass": true,
+    "telegramResult": "Token authorization was successful. However, chat ID error occurred: \"NetworkError()\".",
+    "hiddenStrategies": [
+        "abc",
+        "practice"
+    ],
+    "mainTicker": "ETHUSDT",
+    "simTicker": "ETHUSDT",
+    "backtestTicker": "ETHUSDT",
+    "optimizerTicker": "ETHUSDT",
+    "mainInterval": 9,
+    "simInterval": 0,
+    "optimizerInterval": 0,
+    "optimizerStrategyInterval": 0,
+    "optimizerStrategyEndInterval": 12,
+    "backtestInterval": 0,
+    "backtestStrategyInterval": 0
+}
