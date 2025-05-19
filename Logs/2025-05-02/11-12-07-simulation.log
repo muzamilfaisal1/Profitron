@@ -1,0 +1,108 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-05-02 06:12:07
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Successfully stored all new data to database.
+Successfully stored all new data to database.
+Successfully stored all new data to database.
+Successfully stored all new data to database.
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+
+
+Total trade(s) in previous simulation: 0
+
+Daily Nets:
+
+Starting time: 2025-05-02 06:12:07
+End time: 2025-05-02 06:12:24
+Elapsed time: 0:00:17.306099
+Starting balance: $1000
+Ending balance: $1000
+Trades conducted: 0
+Profit: $0.0
+Successfully stored all new data to database.
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-05-02 07:21:07
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Successfully stored all new data to database.
+
+Datetime in UTC: 2025-05-02 07:21:42.077990
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1825.5
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 1
+Returning all borrowed ETH...
+
+1. Date in UTC: 2025-05-02 07:21:42.069689
+
+Action taken: Force executed short.
+
+Daily Nets:
+
+Successfully stored all new data to database.
+
+Datetime in UTC: 2025-05-02 07:21:56.981185
+Order ID: None
+Action: Returned all borrowed coin as simulation ended.
+Pair: ETHUSDT
+Price: 1825.11
+Method: Automation
+Percentage: -0.08%
+Profit: $-0.79
+
+
+Results:
+Starting time: 2025-05-02 07:21:07
+End time: 2025-05-02 07:21:56
+Elapsed time: 0:00:49.062190
+Starting balance: $1000
+Ending balance: $998.22
+Trades conducted: 2
+Loss: $1.78

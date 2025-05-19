@@ -1,0 +1,169 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-29 12:53:21
+	Starting balance: $13.794
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0.0
+	Starting borrowed coin: 0.0
+	Starting net: $13.794
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Bot has crashed because of :urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7463192779:AAEV9dMQCfl_0ui5tWWpXmDGmbPPyXPrc4w/getMe (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x00000255618E9EB0>, 'Connect timed out. (connect timeout=5.0)'))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1112: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 363, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x00000255618E9EB0>, 'Connect timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7463192779:AAEV9dMQCfl_0ui5tWWpXmDGmbPPyXPrc4w/getMe (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x00000255618E9EB0>, 'Connect timed out. (connect timeout=5.0)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 244, in setup_bot
+    self.initialize_telegram_bot()
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 299, in initialize_telegram_bot
+    gui.telegram_bot.start()
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\telegram_bot\bot.py", line 137, in start
+    self.updater.start_polling()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\ext\updater.py", line 422, in start_polling
+    self._init_thread(self.dispatcher.start, "dispatcher", ready=dispatcher_ready)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\ext\updater.py", line 342, in _init_thread
+    name=f"Bot:{self.bot.id}:{name}",
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\bot.py", line 365, in id
+    return self.bot.id
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\bot.py", line 359, in bot
+    self._bot = self.get_me()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\bot.py", line 446, in get_me
+    result = self._post('getMe', timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7463192779:AAEV9dMQCfl_0ui5tWWpXmDGmbPPyXPrc4w/getMe (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x00000255618E9EB0>, 'Connect timed out. (connect timeout=5.0)'))
+
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+Starting time: 2025-04-29 12:53:21
+End time: 2025-04-29 12:53:45
+Elapsed time: 0:00:23.207273
+Starting balance: $13.794
+Ending balance: $13.79
+Trades conducted: 0
+Profit: $0.0
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+Starting time: 2025-04-29 12:53:21
+End time: 2025-04-29 12:53:45
+Elapsed time: 0:00:23.524041
+Starting balance: $13.794
+Ending balance: $13.79
+Trades conducted: 0
+Profit: $0.0
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-29 12:55:08
+	Starting balance: $13.794
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0.0
+	Starting borrowed coin: 0.0
+	Starting net: $13.794
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Successfully stored all new data to database.
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 0
+
+Results:
+
+Daily Nets:
+Starting time: 2025-04-29 12:55:08
+
+End time: 2025-04-29 12:55:14
+Elapsed time: 0:00:05.999280
+Starting balance: $13.794
+Ending balance: $13.79
+Trades conducted: 0
+Profit: $0.0
+Successfully stored all new data to database.

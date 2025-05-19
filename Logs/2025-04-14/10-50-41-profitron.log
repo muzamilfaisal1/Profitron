@@ -1,0 +1,285 @@
+ConnectionError(MaxRetryError("HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /ZENALC/profitron/master/version.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC919D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000021C6FC919D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /ZENALC/profitron/master/version.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC919D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\helpers.py", line 59, in get_latest_version
+    response = requests.get(url, timeout=3)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /ZENALC/profitron/master/version.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC919D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+ConnectionError(MaxRetryError("HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC914F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000021C6FC914F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC914F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\__init__.py", line 14, in <module>
+    BINANCE_CLIENT = Client()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 300, in __init__
+    self.ping()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 526, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C6FC914F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\worker_thread.py", line 44, in run
+    result = self.function(*self.args, **self.kwargs)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\__main__.py", line 209, in get_tickers
+    tickers = [ticker['symbol'] for ticker in Data(load_data=False, log=False).binance_client.get_all_tickers()]
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 51, in __init__
+    self.binance_client = binance.client.Client()  # Initialize Binance client to retrieve data.
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 300, in __init__
+    self.ping()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 526, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+SSLError(MaxRetryError("HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\worker_thread.py", line 44, in run
+    result = self.function(*self.args, **self.kwargs)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\news_scraper.py", line 19, in scrape_news
+    page = requests.get(url)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+ConnectionError(MaxRetryError("HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C716B9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000021C716B9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C716B9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\worker_thread.py", line 44, in run
+    result = self.function(*self.args, **self.kwargs)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\news_scraper.py", line 19, in scrape_news
+    page = requests.get(url)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.todayonchain.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021C716B9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

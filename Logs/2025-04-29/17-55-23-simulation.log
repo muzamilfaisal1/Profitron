@@ -1,0 +1,96 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-29 12:55:23
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+
+Datetime in UTC: 2025-04-29 12:55:33.876972
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1823.85
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-29 12:55:43.404302
+Order ID: None
+Action: Exited short because of override and resumed autonomous logic.
+Pair: ETHUSDT
+Price: 1823.23
+Method: Manual
+Percentage: -0.07%
+Profit: $-0.66
+
+
+Datetime in UTC: 2025-04-29 12:55:57.347351
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1822.94
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-29 12:56:13.900018
+Order ID: None
+Action: Force exited long.
+Pair: ETHUSDT
+Price: 1823.18
+Method: Manual
+Percentage: -0.09%
+Profit: $-0.87
+
+Successfully stored all new data to database.
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+
+
+Total trade(s) in previous simulation: 4
+Starting time: 2025-04-29 12:55:23
+End time: 2025-04-29 12:56:20
+
+1. Date in UTC: 2025-04-29 12:55:33.876972
+Elapsed time: 0:00:57.233614
+Starting balance: $1000
+Ending balance: $996.48
+
+Action taken: Force executed short.
+Trades conducted: 4
+Loss: $3.52
+
+2. Date in UTC: 2025-04-29 12:55:43.404302
+
+Action taken: Exited short because of override and resumed autonomous logic.
+
+3. Date in UTC: 2025-04-29 12:55:57.347351
+
+Action taken: Force executed long.
+
+4. Date in UTC: 2025-04-29 12:56:13.900018
+
+Action taken: Force exited long.
+
+Daily Nets:
+
+Successfully stored all new data to database.

@@ -1,0 +1,26 @@
+Bot has crashed because of :'BotSignals' does not have a signal with the signature progress(int,QString,QString)
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 137, in create_trader
+    gui.simulation_trader.data_view.custom_get_new_data(progress_callback=self.signals.progress,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 346, in custom_get_new_data
+    callback(progress, "Downloading data...")
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 329, in callback
+    progress_callback.emit(int(percentage), msg, caller)
+AttributeError: 'BotSignals' does not have a signal with the signature progress(int,QString,QString)
+
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+Starting time: 2025-04-19 18:34:14
+End time: 2025-04-19 18:41:37
+Elapsed time: 0:07:22.989091
+Starting balance: $1000
+Ending balance: $1000
+Trades conducted: 0
+Profit: $0.0

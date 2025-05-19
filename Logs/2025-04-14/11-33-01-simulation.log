@@ -1,0 +1,29 @@
+
+
+Total trade(s) in previous simulation: 0
+
+Daily Nets:
+
+Successfully stored all new data to database.
+Bot has crashed because of :Download failed.
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 165, in create_trader
+    raise RuntimeError("Download failed.")
+RuntimeError: Download failed.
+
+
+---------------------------------------------------
+Bot run has ended.
+
+Results:
+Starting time: 2025-04-14 06:33:01
+End time: 2025-04-14 06:40:06
+Elapsed time: 0:07:04.935372
+Starting balance: $1000
+Ending balance: $1000
+Trades conducted: 0
+Profit: $0.0

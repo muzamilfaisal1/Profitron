@@ -1,0 +1,93 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-05-02 06:11:13
+	Starting balance: $13.794
+	Symbol: ETHUSDT
+	Interval: 8 Hours
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0.0
+	Starting borrowed coin: 0.0
+	Starting net: $13.794
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 0
+
+Results:
+
+Daily Nets:
+Starting time: 2025-05-02 06:11:13
+
+End time: 2025-05-02 06:11:58
+Elapsed time: 0:00:45.510117
+Starting balance: $13.794
+Ending balance: $13.79
+Trades conducted: 0
+Profit: $0.0
+Successfully stored all new data to database.
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-05-02 07:19:44
+	Starting balance: $13.794
+	Symbol: ETHUSDT
+	Interval: 8 Hours
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0.0
+	Starting borrowed coin: 0.0
+	Starting net: $13.794
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Attempting to enter long by buying 0.007543983516182419 coins...
+
+Datetime in UTC: 2025-05-02 07:20:05.549473
+Order ID: p1aWBiQVWiLZKgXQcqC9HS
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1825.06
+Method: Manual
+Percentage: -1.31%
+Profit: $-0.18
+
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 1
+
+Results:
+
+1. Date in UTC: 2025-05-02 07:20:05.547431
+Starting time: 2025-05-02 07:19:44
+
+Action taken: Force executed long.
+End time: 2025-05-02 07:20:16
+
+Daily Nets:
+Elapsed time: 0:00:32.732666
+
+Starting balance: $13.794
+Ending balance: $0.11
+Trades conducted: 1
+Loss: $0.18
+Successfully stored all new data to database.

@@ -1,0 +1,273 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-20 14:00:52
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Successfully stored all new data to database.
+
+Datetime in UTC: 2025-04-20 14:01:15.059108
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1577.01
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:01:21.176462
+Order ID: None
+Action: Force exited long.
+Pair: ETHUSDT
+Price: 1576.71
+Method: Manual
+Percentage: -0.12%
+Profit: $-1.19
+
+
+Datetime in UTC: 2025-04-20 14:01:47.153713
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1577.12
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:01:50.792728
+Order ID: None
+Action: Bought short because of custom stop loss.
+Pair: ETHUSDT
+Price: 1576.87
+Method: Automation
+Percentage: -0.08%
+Profit: $-0.84
+
+
+Datetime in UTC: 2025-04-20 14:03:57.146344
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1578.14
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:04:05.650586
+Order ID: None
+Action: Exited long because of override and resumed autonomous logic.
+Pair: ETHUSDT
+Price: 1578.15
+Method: Manual
+Percentage: -0.1%
+Profit: $-0.99
+
+
+Datetime in UTC: 2025-04-20 14:04:10.405248
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1578.14
+Method: Manual
+Percentage: -0.1%
+Profit: $-0.99
+
+
+Datetime in UTC: 2025-04-20 14:04:13.020135
+Order ID: None
+Action: Exited long because short was forced.
+Pair: ETHUSDT
+Price: 1578.15
+Method: Manual
+Percentage: -0.1%
+Profit: $-0.99
+
+
+Datetime in UTC: 2025-04-20 14:04:13.222575
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1578.15
+Method: Manual
+Percentage: -0.1%
+Profit: $-0.99
+
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 9
+Returning all borrowed ETH...
+
+1. Date in UTC: 2025-04-20 14:01:15.057609
+
+Action taken: Force executed long.
+
+2. Date in UTC: 2025-04-20 14:01:21.176462
+
+Action taken: Force exited long.
+
+3. Date in UTC: 2025-04-20 14:01:47.153713
+
+Action taken: Force executed short.
+
+4. Date in UTC: 2025-04-20 14:01:50.792728
+
+Action taken: Bought short because of custom stop loss.
+
+5. Date in UTC: 2025-04-20 14:03:57.146344
+
+Action taken: Force executed long.
+
+6. Date in UTC: 2025-04-20 14:04:05.648490
+
+Action taken: Exited long because of override and resumed autonomous logic.
+
+7. Date in UTC: 2025-04-20 14:04:10.405248
+
+Action taken: Force executed long.
+
+8. Date in UTC: 2025-04-20 14:04:13.020135
+
+Action taken: Exited long because short was forced.
+
+9. Date in UTC: 2025-04-20 14:04:13.222575
+
+Action taken: Force executed short.
+
+Daily Nets:
+
+Successfully stored all new data to database.
+
+Datetime in UTC: 2025-04-20 14:05:38.235753
+Order ID: None
+Action: Returned all borrowed coin as simulation ended.
+Pair: ETHUSDT
+Price: 1577.82
+Method: Automation
+Percentage: -0.08%
+Profit: $-0.78
+
+
+Results:
+Starting time: 2025-04-20 14:00:52
+End time: 2025-04-20 14:05:38
+Elapsed time: 0:04:45.742052
+Starting balance: $1000
+Ending balance: $990.24
+Trades conducted: 10
+Loss: $9.76
+Insertion to database failed. Will retry next run.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-20 14:09:32
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Insertion to database failed. Will retry next run.
+
+Datetime in UTC: 2025-04-20 14:10:07.105796
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1579.12
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:11:32.958413
+Order ID: None
+Action: Force exited short.
+Pair: ETHUSDT
+Price: 1579.49
+Method: Manual
+Percentage: -0.12%
+Profit: $-1.23
+
+
+Datetime in UTC: 2025-04-20 14:11:42.571168
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1580.09
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:12:23.681649
+Order ID: None
+Action: Force exited long.
+Pair: ETHUSDT
+Price: 1580.79
+Method: Manual
+Percentage: -0.06%
+Profit: $-0.56
+
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 4
+
+Results:
+
+1. Date in UTC: 2025-04-20 14:10:07.105796
+Starting time: 2025-04-20 14:09:32
+
+Action taken: Force executed short.
+End time: 2025-04-20 14:12:28
+
+2. Date in UTC: 2025-04-20 14:11:32.958413
+Elapsed time: 0:02:56.325024
+
+Action taken: Force exited short.
+Starting balance: $1000
+
+3. Date in UTC: 2025-04-20 14:11:42.571168
+Ending balance: $996.21
+
+Action taken: Force executed long.
+Trades conducted: 4
+
+4. Date in UTC: 2025-04-20 14:12:23.681649
+Loss: $3.79
+
+Action taken: Force exited long.
+
+Daily Nets:
+
+Successfully stored all new data to database.

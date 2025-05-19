@@ -1,0 +1,217 @@
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 146, in create_trader
+    gui.trader = RealTrader(api_secret=api_secret,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\traders\real_trader.py", line 66, in __init__
+    self.validate_minimum_funds()
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\traders\real_trader.py", line 108, in validate_minimum_funds
+    raise ValueError(f"You have ${self.net_worth}. Please make sure you have at least $10 in your account.")
+ValueError: You have $0.0. Please make sure you have at least $10 in your account.
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\response.py", line 441, in _error_catcher
+    yield
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\response.py", line 522, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 463, in read
+    n = self.readinto(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 507, in readinto
+    n = self.fp.readinto(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\response.py", line 579, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\response.py", line 544, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\response.py", line 458, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 137, in create_trader
+    gui.simulation_trader.data_view.custom_get_new_data(progress_callback=self.signals.progress,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 332, in custom_get_new_data
+    temp_data = self.binance_client.get_klines(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 868, in get_klines
+    return self._get('klines', data=params, version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 745, in send
+    r.content
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\models.py", line 818, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+[Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\__main__.py", line 1346, in import_trades
+    with open(path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 137, in create_trader
+    gui.simulation_trader.data_view.custom_get_new_data(progress_callback=self.signals.progress,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 332, in custom_get_new_data
+    temp_data = self.binance_client.get_klines(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 868, in get_klines
+    return self._get('klines', data=params, version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 137, in create_trader
+    gui.simulation_trader.data_view.custom_get_new_data(progress_callback=self.signals.progress,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 332, in custom_get_new_data
+    temp_data = self.binance_client.get_klines(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 868, in get_klines
+    return self._get('klines', data=params, version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+

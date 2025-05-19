@@ -1,0 +1,96 @@
+Insertion to database failed. Will retry next run.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-20 14:09:32
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Insertion to database failed. Will retry next run.
+
+Datetime in UTC: 2025-04-20 14:10:07.105796
+Order ID: None
+Action: Force executed short.
+Pair: ETHUSDT
+Price: 1579.12
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:11:32.958413
+Order ID: None
+Action: Force exited short.
+Pair: ETHUSDT
+Price: 1579.49
+Method: Manual
+Percentage: -0.12%
+Profit: $-1.23
+
+
+Datetime in UTC: 2025-04-20 14:11:42.571168
+Order ID: None
+Action: Force executed long.
+Pair: ETHUSDT
+Price: 1580.09
+Method: Manual
+Percentage: -0.1%
+Profit: $-1.0
+
+
+Datetime in UTC: 2025-04-20 14:12:23.681649
+Order ID: None
+Action: Force exited long.
+Pair: ETHUSDT
+Price: 1580.79
+Method: Manual
+Percentage: -0.06%
+Profit: $-0.56
+
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 4
+
+Results:
+
+1. Date in UTC: 2025-04-20 14:10:07.105796
+Starting time: 2025-04-20 14:09:32
+
+Action taken: Force executed short.
+End time: 2025-04-20 14:12:28
+
+2. Date in UTC: 2025-04-20 14:11:32.958413
+Elapsed time: 0:02:56.325024
+
+Action taken: Force exited short.
+Starting balance: $1000
+
+3. Date in UTC: 2025-04-20 14:11:42.571168
+Ending balance: $996.21
+
+Action taken: Force executed long.
+Trades conducted: 4
+
+4. Date in UTC: 2025-04-20 14:12:23.681649
+Loss: $3.79
+
+Action taken: Force exited long.
+
+Daily Nets:
+
+Successfully stored all new data to database.

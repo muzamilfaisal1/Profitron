@@ -1,0 +1,14 @@
+Could not find prediction update button in UI
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 410, in try_setting_up_bot
+    self.setup_bot(caller=self.caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 240, in setup_bot
+    self.create_trader(caller)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\bot_thread.py", line 146, in create_trader
+    gui.trader = RealTrader(api_secret=api_secret,
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\traders\real_trader.py", line 66, in __init__
+    self.validate_minimum_funds()
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\traders\real_trader.py", line 108, in validate_minimum_funds
+    raise ValueError(f"You have ${self.net_worth}. Please make sure you have at least $10 in your account.")
+ValueError: You have $0.0. Please make sure you have at least $10 in your account.
+

@@ -1,0 +1,67 @@
+ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)"))
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\MUZAM\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1112: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\worker_thread.py", line 44, in run
+    result = self.function(*self.args, **self.kwargs)
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\__main__.py", line 209, in get_tickers
+    tickers = [ticker['symbol'] for ticker in Data(load_data=False, log=False).binance_client.get_all_tickers()]
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\data.py", line 51, in __init__
+    self.binance_client = binance.client.Client()  # Initialize Binance client to retrieve data.
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 300, in __init__
+    self.ping()
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 526, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\MUZAM\.virtualenvs\Profitron-COuwAK1J\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)

@@ -1,0 +1,40 @@
+Successfully stored all new data to database.
+---------------------------------------------------
+Bot Configuration:
+	Starting time: 2025-04-20 14:14:54
+	Starting balance: $1000
+	Symbol: ETHUSDT
+	Interval: 1 Minute
+	Precision: 2
+	Transaction fee percentage: 0.001%
+	Starting coin: 0
+	Starting borrowed coin: 0
+	Starting net: $1000.0
+	Stop loss type: None
+	Loss percentage: 5.0%
+	Smart stop loss counter: 0
+	Safety timer: None
+Strategies:
+
+End of Configuration
+---------------------------------------------------
+Successfully stored all new data to database.
+
+---------------------------------------------------
+Bot run has ended.
+
+
+Total trade(s) in previous simulation: 0
+
+Results:
+
+Daily Nets:
+Starting time: 2025-04-20 14:14:54
+
+End time: 2025-04-20 14:16:18
+Elapsed time: 0:01:23.232269
+Starting balance: $1000
+Ending balance: $1000
+Trades conducted: 0
+Profit: $0.0
+Successfully stored all new data to database.

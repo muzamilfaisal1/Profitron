@@ -1,0 +1,5 @@
+RuntimeError('wrapped C/C++ object of type WorkerSignals has been deleted')
+Traceback (most recent call last):
+  File "C:\Users\MUZAM\Desktop\Profitron\profitron\threads\worker_thread.py", line 45, in run
+    self.signals.finished.emit(result)
+RuntimeError: wrapped C/C++ object of type WorkerSignals has been deleted
