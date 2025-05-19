@@ -1,0 +1,15 @@
+{
+    "type": "Backtest",
+    "ticker": "ETHUSDT",
+    "interval": 0,
+    "startingBalance": 100,
+    "precision": 3,
+    "marginTrading": true,
+    "lossType": null,
+    "lossTypeIndex": 0,
+    "lossPercentage": 5.0,
+    "smartStopLossCounter": 0,
+    "takeProfitType": null,
+    "takeProfitTypeIndex": 0,
+    "takeProfitPercentage": 5.0
+}

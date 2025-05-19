@@ -1,0 +1,19 @@
+{
+    "type": "Live",
+    "ticker": "ETHUSDT",
+    "interval": 0,
+    "precision": 0,
+    "usRegion": false,
+    "otherRegion": true,
+    "isolatedMargin": false,
+    "crossMargin": true,
+    "lowerInterval": false,
+    "lossType": null,
+    "lossTypeIndex": 0,
+    "lossPercentage": 5.0,
+    "smartStopLossCounter": 0,
+    "safetyTimer": 0,
+    "takeProfitType": null,
+    "takeProfitTypeIndex": 0,
+    "takeProfitPercentage": 5.0
+}

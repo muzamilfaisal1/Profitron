@@ -1,0 +1,11 @@
+{
+    "type": "Optimizer",
+    "ticker": "ETHUSDT",
+    "interval": 0,
+    "strategyIntervalStart": 0,
+    "strategyIntervalEnd": 0,
+    "startingBalance": 100,
+    "precision": 0,
+    "drawdownPercentage": 100,
+    "marginTrading": true
+}

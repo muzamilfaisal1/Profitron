@@ -1,0 +1,20 @@
+{
+    "preferred_tickers": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "BNBUSDT",
+        "ADAUSDT",
+        "DOGEUSDT"
+    ],
+    "update_interval_seconds": 30,
+    "prediction_settings": {
+        "historical_interval": "1h",
+        "lookback_period": "24h",
+        "confidence_threshold": 0.7
+    },
+    "graph_settings": {
+        "show_moving_averages": true,
+        "short_ma_period": 6,
+        "long_ma_period": 12
+    }
+}
