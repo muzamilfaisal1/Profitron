@@ -1,0 +1,20 @@
+{
+    "name": "practice",
+    "description": "No description provided.",
+    "Enter Long": {
+        "d4b7758d-2641-4fcd-a96c-4a7b6e30dfc8": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    },
+    "Exit Long": {
+        "3d6f579b-f72a-49f0-a7f6-fb062d03907e": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    },
+    "Enter Short": {},
+    "Exit Short": {}
+}

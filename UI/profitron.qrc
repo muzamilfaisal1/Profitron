@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>profitron.png</file>
+  </qresource>
+</RCC>

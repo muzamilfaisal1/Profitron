@@ -1,0 +1,47 @@
+{
+    "name": "abc",
+    "description": "No description provided.",
+    "Enter Long": {
+        "4c2c4380-2ede-4a82-a062-050c7ec815c6": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        },
+        "ddfa0a6f-925a-4d2a-8ab5-a943509fe592": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        },
+        "5aa5ead3-bc73-43b6-b659-c5a3a4c23c0e": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        },
+        "2cd34092-aeab-495a-9b32-68d445090fb4": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    },
+    "Exit Long": {
+        "4b67955b-fd21-41b4-a925-85d6c25ae08c": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    },
+    "Enter Short": {
+        "12fb6faf-151f-4765-8249-7428637f1f01": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    },
+    "Exit Short": {
+        "fd0bccc4-abb1-40c8-a0dc-516e591aefef": {
+            "name": "TRIX",
+            "operator": ">",
+            "against": "current_price"
+        }
+    }
+}
