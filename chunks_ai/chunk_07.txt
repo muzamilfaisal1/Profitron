@@ -1,0 +1,187 @@
+[7] O. B. Sezer, M. U. Gudelek, and A. M. Ozbayoglu, "Financial time series forecasting with deep learning: A systematic literature review," Applied Soft Computing, vol. 90, p. 106181, 2020.
+
+[8] M. Nabipour, P. Nayyeri, H. Jabani, A. Mosavi, and E. Salwana, "Deep learning for stock market prediction," Entropy, vol. 22, no. 8, p. 840, 2020.
+
+[9] J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, "Empirical evaluation of gated recurrent neural networks on sequence modeling," arXiv preprint arXiv:1412.3555, 2014.
+
+[10] A. Vaswani et al., "Attention is all you need," in Advances in Neural Information Processing Systems, 2017, pp. 5998–6008.
+
+[11] T. Chen and C. Guestrin, "XGBoost: A scalable tree boosting system," in ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2016, pp. 785–794.
+
+[12] J. Moody and M. Saffell, "Learning to trade via direct reinforcement," IEEE Transactions on Neural Networks, vol. 12, no. 4, pp. 875–889, 2001.
+
+[13] Z. Jiang, D. Xu, and J. Liang, "A deep reinforcement learning framework for the financial portfolio management problem," arXiv preprint arXiv:1706.10059, 2017.
+
+[14] X.-Y. Liu et al., "FinRL: A deep reinforcement learning library for automated stock trading in quantitative finance," arXiv preprint arXiv:2011.09607, 2020.
+
+[15] A. Brim, "Deep reinforcement learning pairs trading with a double deep Q-network," in IEEE Annual Computing and Communication Workshop, 2020.
+
+[16] R. S. T. Lee, "Chaotic type-2 transient-fuzzy deep neuro-oscillatory network for financial forecasting," IEEE Transactions on Neural Networks and Learning Systems, vol. 31, no. 4, pp. 1342–1352, 2020.
+
+[17] Y. Hilpisch, Python for Finance: Mastering Data-Driven Finance, 2nd ed. O'Reilly Media, 2018.
+
+[18] A. Géron, Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd ed. O'Reilly Media, 2022.
+
+[19] M. López de Prado, Advances in Financial Machine Learning. Wiley, 2018.
+
+[20] E. Chan, Quantitative Trading: How to Build Your Own Algorithmic Trading Business, 2nd ed. Wiley, 2021.
+
+[21] R. Pardo, The Evaluation and Optimization of Trading Strategies, 2nd ed. Wiley, 2008.
+
+[22] J. Wilder, New Concepts in Technical Trading Systems. Trend Research, 1978.
+
+[23] J. Bollinger, Bollinger on Bollinger Bands. McGraw-Hill, 2001.
+
+[24] Binance, "Binance API Documentation," 2023. [Online]. Available: https://binance-docs.github.io/apidocs/
+
+[25] Telegram, "Telegram Bot API," 2023. [Online]. Available: https://core.telegram.org/bots/api
+
+[26] TA-Lib, "Technical Analysis Library for Python," 2023. [Online]. Available: https://github.com/mrjbq7/ta-lib
+
+[27] M. Abadi et al., "TensorFlow: A system for large-scale machine learning," in USENIX Symposium on Operating Systems Design and Implementation, 2016, pp. 265–283.
+
+[28] F. Pedregosa et al., "Scikit-learn: Machine learning in Python," Journal of Machine Learning Research, vol. 12, pp. 2825–2830, 2011.
+
+[29] W. McKinney, "Data structures for statistical computing in Python," in Proceedings of the 9th Python in Science Conference, 2010, pp. 51–56.
+
+[30] C. R. Harris et al., "Array programming with NumPy," Nature, vol. 585, pp. 357–362, 2020.
+
+[31] D. Kingma and J. Ba, "Adam: A method for stochastic optimization," arXiv preprint arXiv:1412.6980, 2014.
+
+[32] N. Srivastava et al., "Dropout: A simple way to prevent neural networks from overfitting," Journal of Machine Learning Research, vol. 15, pp. 1929–1958, 2014.
+
+[33] S. Ioffe and C. Szegedy, "Batch normalization: Accelerating deep network training by reducing internal covariate shift," in International Conference on Machine Learning, 2015, pp. 448–456.
+
+[34] W. F. Sharpe, "The Sharpe ratio," Journal of Portfolio Management, vol. 21, no. 1, pp. 49–58, 1994.
+
+[35] F. A. Sortino and R. van der Meer, "Downside risk," Journal of Portfolio Management, vol. 17, no. 4, pp. 27–31, 1991.
+
+[36] L. Bachelier, "Théorie de la spéculation," Annales Scientifiques de l'École Normale Supérieure, vol. 17, pp. 21–86, 1900.
+
+[37] E. F. Fama, "Efficient capital markets: A review of theory and empirical work," Journal of Finance, vol. 25, no. 2, pp. 383–417, 1970.
+
+[38] A. W. Lo, "The adaptive markets hypothesis," Journal of Portfolio Management, vol. 30, no. 5, pp. 15–29, 2004.
+
+[39] D. Kahneman and A. Tversky, "Prospect theory: An analysis of decision under risk," Econometrica, vol. 47, no. 2, pp. 263–291, 1979.
+
+[40] R. J. Shiller, Irrational Exuberance, 3rd ed. Princeton University Press, 2015.
+
+[41] B. M. Barber and T. Odean, "Trading is hazardous to your wealth: The common stock investment performance of individual investors," Journal of Finance, vol. 55, no. 2, pp. 773–806, 2000.
+
+[42] B. M. Barber and T. Odean, "Boys will be boys: Gender, overconfidence, and common stock investment," Quarterly Journal of Economics, vol. 116, no. 1, pp. 261–292, 2001.
+
+[43] H. Shefrin and M. Statman, "The disposition to sell winners too early and ride losers too long: Theory and evidence," Journal of Finance, vol. 40, no. 3, pp. 777–790, 1985.
+
+[44] B. M. Barber, Y.-T. Lee, Y.-J. Liu, and T. Odean, "Just how much do individual investors lose by trading?," Review of Financial Studies, vol. 22, no. 2, pp. 609–632, 2009.
+
+[45] T. Odean, "Are investors reluctant to realize their losses?," Journal of Finance, vol. 53, no. 5, pp. 1775–1798, 1998.
+
+[46] T. Odean, "Do investors trade too much?," American Economic Review, vol. 89, no. 5, pp. 1279–1298, 1999.
+
+[47] N. Barberis and R. Thaler, "A survey of behavioral finance," in Handbook of the Economics of Finance, vol. 1, pp. 1053–1128, Elsevier, 2003.
+
+[48] F. X. Diebold and R. S. Mariano, "Comparing predictive accuracy," Journal of Business and Economic Statistics, vol. 13, no. 3, pp. 253–263, 1995.
+
+[49] H. White, "A reality check for data snooping," Econometrica, vol. 68, no. 5, pp. 1097–1126, 2000.
+
+[50] R. Sullivan, A. Timmermann, and H. White, "Data-snooping, technical trading rule performance, and the bootstrap," Journal of Finance, vol. 54, no. 5, pp. 1647–1691, 1999.
+
+[51] M. López de Prado, "The 10 reasons most machine learning funds fail," Journal of Portfolio Management, vol. 44, no. 6, pp. 120–133, 2018.
+
+[52] D. H. Bailey, J. Borwein, M. López de Prado, and Q. J. Zhu, "The probability of backtest overfitting," Journal of Computational Finance, vol. 20, no. 4, pp. 39–69, 2017.
+
+[53] R. F. Engle, "Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation," Econometrica, vol. 50, no. 4, pp. 987–1007, 1982.
+
+[54] T. Bollerslev, "Generalized autoregressive conditional heteroscedasticity," Journal of Econometrics, vol. 31, no. 3, pp. 307–327, 1986.
+
+[55] B. Lim and S. Zohren, "Time-series forecasting with deep learning: A survey," Philosophical Transactions of the Royal Society A, vol. 379, no. 2194, p. 20200209, 2021.
+
+[56] H. Wu, J. Xu, J. Wang, and M. Long, "Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting," in Advances in Neural Information Processing Systems, vol. 34, pp. 22419–22430, 2021.
+
+[57] H. Zhou et al., "Informer: Beyond efficient transformer for long sequence time-series forecasting," in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 12, pp. 11106–11115, 2021.
+
+[58] B. Lim, S. Ö. Arık, N. Loeff, and T. Pfister, "Temporal fusion transformers for interpretable multi-horizon time series forecasting," International Journal of Forecasting, vol. 37, no. 4, pp. 1748–1764, 2021.
+
+[59] D. Salinas, V. Flunkert, J. Gasthaus, and T. Januschowski, "DeepAR: Probabilistic forecasting with autoregressive recurrent networks," International Journal of Forecasting, vol. 36, no. 3, pp. 1181–1191, 2020.
+
+[60] S. Bai, J. Z. Kolter, and V. Koltun, "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling," arXiv preprint arXiv:1803.01271, 2018.
+
+[61] N. Tang, J. Mao, Y. Wang, and R. Nallapati, "Hybrid CNN-LSTM model for stock price prediction," in International Conference on Advances in Computational Intelligence, pp. 100–106, 2019.
+
+[62] M. Rundo, "Grouped multi-attention network for hourly intraday stock trading," IEEE Transactions on Knowledge and Data Engineering, vol. 34, no. 5, pp. 2123–2136, 2022.
+
+[63] M. Almahdi and S. Y. Yang, "An adaptive portfolio trading system: A risk-return portfolio optimization using recurrent reinforcement learning," Expert Systems with Applications, vol. 87, pp. 267–279, 2017.
+
+[64] T. Théate and D. Ernst, "An application of deep reinforcement learning to algorithmic trading," Expert Systems with Applications, vol. 173, p. 114632, 2021.
+
+[65] A. M. Aboussalah and C.-G. Lee, "Continuous control with stacked deep dynamic recurrent reinforcement learning for portfolio optimization," Expert Systems with Applications, vol. 140, p. 112891, 2020.
+
+[66] S. Sun, R. Wang, and B. An, "Reinforcement learning for quantitative trading," ACM Transactions on Intelligent Systems and Technology, vol. 14, no. 3, pp. 1–29, 2023.
+
+[67] T. Bollerslev, R. F. Engle, and D. B. Nelson, "ARCH models," in Handbook of Econometrics, vol. 4, pp. 2959–3038, Elsevier, 1994.
+
+[68] R. Cont, "Empirical properties of asset returns: Stylized facts and statistical issues," Quantitative Finance, vol. 1, no. 2, pp. 223–236, 2001.
+
+[69] T. G. Andersen, T. Bollerslev, F. X. Diebold, and P. Labys, "Modeling and forecasting realized volatility," Econometrica, vol. 71, no. 2, pp. 579–625, 2003.
+
+[70] M. O'Hara, Market Microstructure Theory. Blackwell, 1995.
+
+[71] J. Hasbrouck, Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading. Oxford University Press, 2007.
+
+[72] R. Almgren and N. Chriss, "Optimal execution of portfolio transactions," Journal of Risk, vol. 3, pp. 5–40, 2001.
+
+[73] R. Cont, A. Kukanov, and S. Stoikov, "The price impact of order book events," Journal of Financial Econometrics, vol. 12, no. 1, pp. 47–88, 2014.
+
+[74] J. P. Bouchaud, J. Bonart, J. Donier, and M. Gould, Trades, Quotes and Prices: Financial Markets Under the Microscope. Cambridge University Press, 2018.
+
+[75] J. D. Hamilton, "A new approach to the economic analysis of nonstationary time series and the business cycle," Econometrica, vol. 57, no. 2, pp. 357–384, 1989.
+
+[76] H. E. Hurst, "Long-term storage capacity of reservoirs," Transactions of the American Society of Civil Engineers, vol. 116, pp. 770–799, 1951.
+
+[77] B. B. Mandelbrot, "The variation of certain speculative prices," Journal of Business, vol. 36, no. 4, pp. 394–419, 1963.
+
+[78] D. Easley, M. M. López de Prado, and M. O'Hara, "The volume clock: Insights into the high-frequency paradigm," Journal of Portfolio Management, vol. 39, no. 1, pp. 19–29, 2012.
+
+[79] A. Tsantekidis, N. Passalis, A. Tefas, J. Kanniainen, M. Gabbouj, and A. Iosifidis, "Forecasting stock prices from the limit order book using convolutional neural networks," in IEEE Conference on Business Informatics, vol. 1, pp. 7–12, 2017.
+
+[80] Z. Zhang, S. Zohren, and S. Roberts, "DeepLOB: Deep convolutional neural networks for limit order books," IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 3001–3012, 2019.
+
+[81] A. Briola, J. Turiel, and T. Aste, "Deep reinforcement learning for active high frequency trading," arXiv preprint arXiv:2101.07107, 2021.
+
+[82] T. Hastie, R. Tibshirani, and J. Friedman, The Elements of Statistical Learning, 2nd ed. Springer, 2009.
+
+[83] I. Goodfellow, Y. Bengio, and A. Courville, Deep Learning. MIT Press, 2016.
+
+[84] L. Prechelt, "Early stopping — but when?," in Neural Networks: Tricks of the Trade, pp. 53–67, Springer, 2012.
+
+[85] G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R. R. Salakhutdinov, "Improving neural networks by preventing co-adaptation of feature detectors," arXiv preprint arXiv:1207.0580, 2012.
+
+[86] I. Loshchilov and F. Hutter, "SGDR: Stochastic gradient descent with warm restarts," in International Conference on Learning Representations, 2017.
+
+[87] L. Buitinck et al., "API design for machine learning software: experiences from the scikit-learn project," in ECML PKDD Workshop: Languages for Data Mining and Machine Learning, pp. 108–122, 2013.
+
+[88] D. Merkel, "Docker: lightweight Linux containers for consistent development and deployment," Linux Journal, vol. 2014, no. 239, p. 2, 2014.
+
+[89] State Bank of Pakistan, "Caution regarding risks of virtual currencies / coins / tokens," Press release, 6 April 2018. [Online]. Available: https://www.sbp.org.pk/
+
+[90] Securities and Exchange Commission of Pakistan, "Position paper on regulation of digital asset trading platforms," Discussion paper, 2020.
+
+[91] Chainalysis, "The 2023 Geography of Cryptocurrency Report," 2023. [Online]. Available: https://www.chainalysis.com/
+
+[92] M. Carney, "The growing challenges for monetary policy in the current international monetary and financial system," Speech at the Jackson Hole Symposium, 23 August 2019.
+
+[93] A. Park and H. Sabourian, "Herding and contrarian behavior in financial markets," Econometrica, vol. 79, no. 4, pp. 973–1026, 2011.
+
+[94] N. Bollen and V. Pool, "Suspicious patterns in hedge fund returns and the risk of fraud," Review of Financial Studies, vol. 25, no. 7, pp. 2013–2071, 2012.
+
+[95] R. Cont and L. Wagalath, "Fire sales forensics: Measuring endogenous risk," Mathematical Finance, vol. 26, no. 4, pp. 835–866, 2016.
+
+[96] J. Y. Campbell, A. W. Lo, and A. C. MacKinlay, The Econometrics of Financial Markets. Princeton University Press, 1997.
+
+[97] R. F. Engle and J. R. Russell, "Autoregressive conditional duration: A new model for irregularly spaced transaction data," Econometrica, vol. 66, no. 5, pp. 1127–1162, 1998.
+
+[98] F. Black, "Noise," Journal of Finance, vol. 41, no. 3, pp. 528–543, 1986.
+
+[99] L. Harris, Trading and Exchanges: Market Microstructure for Practitioners. Oxford University Press, 2003.
+
+[100] M. López de Prado, Machine Learning for Asset Managers. Cambridge University Press, 2020.

@@ -1,0 +1,77 @@
+[60] S. Bai, J. Z. Kolter, and V. Koltun, "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling," arXiv preprint arXiv:1803.01271, 2018.
+
+[61] N. Tang, J. Mao, Y. Wang, and R. Nallapati, "Hybrid CNN-LSTM model for stock price prediction," in International Conference on Advances in Computational Intelligence, pp. 100–106, 2019.
+
+[62] M. Rundo, "Grouped multi-attention network for hourly intraday stock trading," IEEE Transactions on Knowledge and Data Engineering, vol. 34, no. 5, pp. 2123–2136, 2022.
+
+[63] M. Almahdi and S. Y. Yang, "An adaptive portfolio trading system: A risk-return portfolio optimization using recurrent reinforcement learning," Expert Systems with Applications, vol. 87, pp. 267–279, 2017.
+
+[64] T. Théate and D. Ernst, "An application of deep reinforcement learning to algorithmic trading," Expert Systems with Applications, vol. 173, p. 114632, 2021.
+
+[65] A. M. Aboussalah and C.-G. Lee, "Continuous control with stacked deep dynamic recurrent reinforcement learning for portfolio optimization," Expert Systems with Applications, vol. 140, p. 112891, 2020.
+
+[66] S. Sun, R. Wang, and B. An, "Reinforcement learning for quantitative trading," ACM Transactions on Intelligent Systems and Technology, vol. 14, no. 3, pp. 1–29, 2023.
+
+[67] T. Bollerslev, R. F. Engle, and D. B. Nelson, "ARCH models," in Handbook of Econometrics, vol. 4, pp. 2959–3038, Elsevier, 1994.
+
+[68] R. Cont, "Empirical properties of asset returns: Stylized facts and statistical issues," Quantitative Finance, vol. 1, no. 2, pp. 223–236, 2001.
+
+[69] T. G. Andersen, T. Bollerslev, F. X. Diebold, and P. Labys, "Modeling and forecasting realized volatility," Econometrica, vol. 71, no. 2, pp. 579–625, 2003.
+
+[70] M. O'Hara, Market Microstructure Theory. Blackwell, 1995.
+
+[71] J. Hasbrouck, Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading. Oxford University Press, 2007.
+
+[72] R. Almgren and N. Chriss, "Optimal execution of portfolio transactions," Journal of Risk, vol. 3, pp. 5–40, 2001.
+
+[73] R. Cont, A. Kukanov, and S. Stoikov, "The price impact of order book events," Journal of Financial Econometrics, vol. 12, no. 1, pp. 47–88, 2014.
+
+[74] J. P. Bouchaud, J. Bonart, J. Donier, and M. Gould, Trades, Quotes and Prices: Financial Markets Under the Microscope. Cambridge University Press, 2018.
+
+[75] J. D. Hamilton, "A new approach to the economic analysis of nonstationary time series and the business cycle," Econometrica, vol. 57, no. 2, pp. 357–384, 1989.
+
+[76] H. E. Hurst, "Long-term storage capacity of reservoirs," Transactions of the American Society of Civil Engineers, vol. 116, pp. 770–799, 1951.
+
+[77] B. B. Mandelbrot, "The variation of certain speculative prices," Journal of Business, vol. 36, no. 4, pp. 394–419, 1963.
+
+[78] D. Easley, M. M. López de Prado, and M. O'Hara, "The volume clock: Insights into the high-frequency paradigm," Journal of Portfolio Management, vol. 39, no. 1, pp. 19–29, 2012.
+
+[79] A. Tsantekidis, N. Passalis, A. Tefas, J. Kanniainen, M. Gabbouj, and A. Iosifidis, "Forecasting stock prices from the limit order book using convolutional neural networks," in IEEE Conference on Business Informatics, vol. 1, pp. 7–12, 2017.
+
+[80] Z. Zhang, S. Zohren, and S. Roberts, "DeepLOB: Deep convolutional neural networks for limit order books," IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 3001–3012, 2019.
+
+[81] A. Briola, J. Turiel, and T. Aste, "Deep reinforcement learning for active high frequency trading," arXiv preprint arXiv:2101.07107, 2021.
+
+[82] T. Hastie, R. Tibshirani, and J. Friedman, The Elements of Statistical Learning, 2nd ed. Springer, 2009.
+
+[83] I. Goodfellow, Y. Bengio, and A. Courville, Deep Learning. MIT Press, 2016.
+
+[84] L. Prechelt, "Early stopping — but when?," in Neural Networks: Tricks of the Trade, pp. 53–67, Springer, 2012.
+
+[85] G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R. R. Salakhutdinov, "Improving neural networks by preventing co-adaptation of feature detectors," arXiv preprint arXiv:1207.0580, 2012.
+
+[86] I. Loshchilov and F. Hutter, "SGDR: Stochastic gradient descent with warm restarts," in International Conference on Learning Representations, 2017.
+
+[87] L. Buitinck et al., "API design for machine learning software: experiences from the scikit-learn project," in ECML PKDD Workshop: Languages for Data Mining and Machine Learning, pp. 108–122, 2013.
+
+[88] D. Merkel, "Docker: lightweight Linux containers for consistent development and deployment," Linux Journal, vol. 2014, no. 239, p. 2, 2014.
+
+[89] State Bank of Pakistan, "Caution regarding risks of virtual currencies / coins / tokens," Press release, 6 April 2018. [Online]. Available: https://www.sbp.org.pk/
+
+[90] Securities and Exchange Commission of Pakistan, "Position paper on regulation of digital asset trading platforms," Discussion paper, 2020.
+
+[91] Chainalysis, "The 2023 Geography of Cryptocurrency Report," 2023. [Online]. Available: https://www.chainalysis.com/
+
+[92] M. Carney, "The growing challenges for monetary policy in the current international monetary and financial system," Speech at the Jackson Hole Symposium, 23 August 2019.
+
+[93] A. Park and H. Sabourian, "Herding and contrarian behavior in financial markets," Econometrica, vol. 79, no. 4, pp. 973–1026, 2011.
+
+[94] N. Bollen and V. Pool, "Suspicious patterns in hedge fund returns and the risk of fraud," Review of Financial Studies, vol. 25, no. 7, pp. 2013–2071, 2012.
+
+[95] R. Cont and L. Wagalath, "Fire sales forensics: Measuring endogenous risk," Mathematical Finance, vol. 26, no. 4, pp. 835–866, 2016.
+
+[96] J. Y. Campbell, A. W. Lo, and A. C. MacKinlay, The Econometrics of Financial Markets. Princeton University Press, 1997.
+
+[97] R. F. Engle and J. R. Russell, "Autoregressive conditional duration: A new model for irregularly spaced transaction data," Econometrica, vol. 66, no. 5, pp. 1127–1162, 1998.
+
+[98] F. Black, "Noise," Journal of Finance, vol. 41, no. 3, pp. 528–543, 1986.

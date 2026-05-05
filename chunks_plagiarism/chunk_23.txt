@@ -1,0 +1,29 @@
+5.17 Robustness to Data Quality Issues
+
+Real-world data feeds are imperfect, and a production trading agent must remain functional in the presence of missing ticks, out-of-order messages, and occasional erroneous price prints. We performed a stress test on the agent's data layer in which we injected synthetic faults — packet drops at one percent, packet reordering at five percent, and spurious price spikes at one in ten thousand messages — and measured the impact on classification accuracy and trading performance. The classification accuracy degraded by less than one percentage point under these conditions, and trading performance was approximately unaffected, because the validation logic in the data layer detected and discarded the synthetic anomalies before they reached the model.
+
+A more challenging stress test injected a sustained period of stale data, simulating an exchange-side WebSocket outage in which the connection appeared healthy but no new messages arrived. The agent's behaviour under this fault was conservative as designed: after a configurable timeout, the strategy engine declines to issue new trade signals and the position manager initiates a controlled close-out of any open positions to limit exposure to whatever has happened in the unobserved interval. We consider this conservative behaviour a feature rather than a limitation, because the alternative — continuing to trade on stale data — would expose the user to losses that the agent's decision logic has no way to anticipate.
+
+5.18 Comparison with Simpler Baselines
+
+Beyond the headline comparison with passive buy-and-hold benchmarks, we evaluated the agent against several simpler algorithmic baselines to isolate the contribution of the LSTM. The baselines were a moving-average crossover, a single-indicator RSI mean-reversion strategy, and a Bollinger-band squeeze-and-release strategy. All three baselines were tuned on the same training fold as the LSTM and evaluated on the same held-out window.
+
+The crossover baseline produced realised returns approximately fifty percent of the LSTM's returns, with a Sharpe ratio approximately a third lower. The RSI mean-reversion baseline produced negative realised returns over the evaluation window because the prevailing regime was predominantly trending and mean-reversion strategies underperform structurally in trending regimes. The Bollinger-band baseline produced returns approximately two thirds of the LSTM's, with a Sharpe ratio about thirty percent lower. The implication is that the LSTM is doing more than reproducing what any of the simpler baselines do; it is integrating information from multiple indicators in a way that is harder to replicate with a hand-crafted single-indicator rule.
+
+We do not claim that the LSTM is the only model capable of integrating multiple indicators effectively. A gradient-boosted tree trained on the same input vector achieves approximately the same realised return and only a slightly lower Sharpe ratio, supporting the broader observation that the model class matters less than the feature engineering and the discipline of the training protocol. The LSTM's principal advantage in our system is not predictive supremacy but the smooth, interpretable confidence score it produces, which the strategy engine consumes more easily than the discrete prediction of a tree-based model.
+
+5.19 Sensitivity Analysis on Key Hyperparameters
+
+Beyond the hyperparameter sweep reported in Section 4, we performed a focused sensitivity analysis on the parameters that operators are most likely to adjust in practice: the confidence threshold, the per-trade risk budget, and the volatility cool-down threshold. The sensitivity analysis evaluated the agent's performance across a grid of parameter values around the recommended defaults to characterise how forgiving the system is to operator-driven configuration changes.
+
+For the confidence threshold, performance was robust to values between 0.65 and 0.75, with realised Sharpe ratios within a tenth of the value at the default 0.70. Outside this range performance deteriorated noticeably: thresholds below 0.65 increased the trade frequency and dragged down per-trade expectancy below the round-trip cost, while thresholds above 0.75 reduced the trade frequency below the level required for the modest per-trade edge to compound into meaningful annualised returns. The recommended default of 0.70 is therefore not an arbitrary choice but sits in the centre of a relatively narrow operating range.
+
+For the per-trade risk budget, performance was robust to values between one and three percent of equity, with the realised Sharpe approximately constant across this range. Values below one percent produced returns that were too small relative to fixed transaction costs, and values above three percent produced occasional drawdowns that breached the regulatory drawdown threshold and triggered the daily-loss circuit breaker more frequently than was operationally desirable.
+
+For the volatility cool-down threshold, the optimal value depended sensitively on the time period considered. During the trending periods that dominated the early part of the evaluation window, a higher threshold (allowing more activity during volatile episodes) was preferred; during the range-bound period in the middle of the window, a lower threshold was preferred. This finding motivates an adaptive threshold that learns the operator's preferred trade-off between activity and risk and adjusts dynamically — a future enhancement we discuss further in Section 8.
+
+6. Discussion
+
+6.1 What Works
+
+Three aspects of the design worked well enough to be worth recommending to practitioners building comparable systems.
